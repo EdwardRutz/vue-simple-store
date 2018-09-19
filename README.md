@@ -21,7 +21,7 @@ npm run serve
 npm run build
 ```
 
-## Notes
+## Miscellaneous Notes
 
 - Three ways to manage data in Vue: 
 1. Event Bus (not recommended in style guide)
