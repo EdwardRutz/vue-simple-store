@@ -1,17 +1,26 @@
 <disable-eslint/>
 <template>
-  <div>
+  <div id="app">
+    <h1>Simple Store</h1>
+
+    <app-number-submit></app-number-submit>
+
+
+    <app-number-display></app-number-display>
+
 
   </div>
 </template>
 
 <script>
 import NumberDisplay from './components/NumberDispay.vue'
+import NumberSubmit from './components/NumberSubmit.vue'
 
 export default {
   name: 'app',
   components: {
-    'app-number-display': NumberDisplay
+    'app-number-display': NumberDisplay,
+    'app-number-submit': NumberSubmit
   }
 }
 </script>

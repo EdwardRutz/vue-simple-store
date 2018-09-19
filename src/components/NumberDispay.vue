@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import { store } from './store.js';
+    import { store } from '../store/store.js';
 
 export default {
   name: 'app-number-display',
