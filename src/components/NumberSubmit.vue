@@ -1,7 +1,7 @@
 <template>
     <div>
         <input v-model="newNumber" type="number"/>
-        <button @click="pushNewNumber(newNumber)">Add New Number</button>
+        <button @click="addNewNumber(newNumber)">Add New Number</button>
     </div>
 </template>
 
@@ -16,8 +16,8 @@
       }
     },
     methods: {
-      pushNewNumber(newNumber) {
-        store.pushNewNumber(newNumber);
+      addNewNumber(newNumber) {
+        store.addNewNumber(newNumber);
       }
     }
   }

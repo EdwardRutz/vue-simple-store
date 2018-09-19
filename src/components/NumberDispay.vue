@@ -1,5 +1,6 @@
 <template>
-  <div class="">
+  <div>
+      <!--Get the numbers from store.js-->
     <h2>{{ storeState.numbers }}</h2>
   </div>
 </template>
